@@ -1,0 +1,63 @@
+/* .container{
+     position: static !important; 
+} */
+#topright{
+    height: 300px;
+    display:inline-table;
+    
+}
+#botright{
+    height:300px;
+    display:inline-table;
+}
+.img{
+    display:inline-block;
+}
+.area{
+    display: inline-block;
+}
+.inline-block{
+    display: inline-block;
+}
+.col-6{
+    display: inline-block;
+}
+#loading{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    visibility: visible;
+    background-color: yellow;
+}
+
+
+
+/* .fill{
+    height: 100%;
+    min-height: 100%;
+} */
+/* .row-12{
+    display:block; 
+    width:540px; 
+    height:120px; 
+    position:relative;
+}
+.row-12 .pic-box{
+    display:block; 
+    width:540px; 
+    height:120px;
+}
+.row-12 .pic-box img{
+    display:block; 
+    width:540px; 
+    height:120px;
+}
+.col-2:hover .pic-hover{display:inline-block}
+.display-frz{display:inline-block;}
+.display-fsh{display: inline-block; width: 500px; height: 200px; margin-left: -85px;}
+.display-bev{display: inline-block; width: 500px; height: 200px; margin-left: -175px;}
+.display-hel{display: inline-block; width: 500px; height: 200px; margin-left: -255px;}
+.display-pet{display: inline-block; width: 500px; height: 200px; margin-left: -395px;}
+.col-3 .pic-hover{position: absolute; top: 200;left: 200; display:none;}
+.col-3:hover .pic-hover{display:inline-block} */

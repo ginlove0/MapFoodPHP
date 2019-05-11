@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="text.css">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="homepage.js"></script>
+    <script src="cartpage.js"></script>
+    <script src="clear.js"></script>
+    <script src="checkout.js"></script>
+    <script src="checkoutForm.js"></script>
+    
+    <!-- <script type="text/javascript">onload=makeRequest('Assignment1/product.xml')</script> -->
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <!-- first half interface -->
+            <div class="col-6 border">
+                <h2>Category</h2>
+                <div class="root">
+                    <img src="./images/category.png" usemap="#CategoryMap">
+                    <map name="CategoryMap" id="CategoryMap">
+                        <area onmouseover="frzFood();"    shape="rect" coords="5,191,98,249" />
+                        <area onmouseover="fshFood();"  shape="rect" coords="107,191,198,247" />
+                        <area onmouseover="bevFood();"   shape="rect" coords="209,192,302,248" />
+                        <area onmouseover="helFood();"  shape="rect" coords="316,191,405,248" />
+                        <area onmouseover="petFood();"  shape="rect" coords="418,192,507,248" />
+                    </map>
+                    
+                </div>
+                <div class="row-12">
+                <!-- Frozen map -->
+                <div class="Frozenitems">
+                    <img src="" id="Frzitem" usemap="#Frzitem">
+                    <map name="Frzitem" id="Frzitem">
+                        <!-- lay id cua product trong xml, id la thứ tự của product  -->
+                        <area onclick="loadXMLDoc(2)" coords="8,97,95,127" shape="rect"/>
+                        <area onclick="loadXMLDoc(0)" coords="66,184,152,212" shape="rect">
+                        <area onclick="loadXMLDoc(1)" coords="168,184,253,211" shape="rect">
+                        <area onclick="loadXMLDoc(3)" coords="211,97,298,126" shape="rect">
+                        <area onclick="loadXMLDoc(4)" coords="273,182,364,213" shape="rect">
+                        <area onclick="loadXMLDoc(5)" coords="377,182,464,211" shape="rect">
+                        
+                    </map>
+                </div>
+                <!-- Fresh map -->
+                <div class="Freshitems">
+                    <img src="" id="Fshitem" usemap="#Fshitem">
+                    <map name="Fshitem" id="Fshitem">
+                        <!-- lay id cua product trong xml, id la thứ tự của product  -->
+                        <area onclick="loadXMLDoc(15)" coords="8,93,71,124" shape="rect">
+                        <area onclick="loadXMLDoc(13)" coords="40,181,123,213" shape="rect">
+                        <area onclick="loadXMLDoc(14)" coords="142,182,230,211" shape="rect">
+                        <area onclick="loadXMLDoc(16)" coords="160,100,219,124" shape="rect">
+                        <area onclick="loadXMLDoc(17)" coords="231,98,300,125" shape="rect">
+                        <area onclick="loadXMLDoc(19)" coords="305,98,373,123" shape="rect">
+                        <area onclick="loadXMLDoc(20)" coords="381,96,447,125" shape="rect">
+                        <area onclick="loadXMLDoc(18)" coords="455,97,521,123" shape="rect">
+                        
+                    </map>
+                </div>
+                <!-- Beverange map -->
+                <div class="Beverangeitems">
+                    <img src="" id="Bevitem" usemap="#Bevitem">
+                    <map name="Bevitem" id="Bevitem">
+                        <!-- lay id cua product trong xml, id la thứ tự của product  -->
+                        <area onclick="loadXMLDoc(24)" coords="22,180,92,209" shape="rect">
+                        <area onclick="loadXMLDoc(25)" coords="99,181,166,207" shape="rect">
+                        <area onclick="loadXMLDoc(21)" coords="174,180,240,207" shape="rect">
+                        <area onclick="loadXMLDoc(22)" coords="247,182,313,204" shape="rect">
+                        <area onclick="loadXMLDoc(23)" coords="324,181,390,208" shape="rect">
+                        <area onclick="loadXMLDoc(26)" coords="426,101,513,126" shape="rect">
+                        
+                    </map>
+                </div>
+                <!-- Health map -->
+                <div class="Healthitems">
+                    <img src="" id="Helitem" usemap="#Helitem">
+                    <map name="Helitem" id="Helitem">
+                        <!-- lay id cua product trong xml, id la thứ tự của product  -->
+                        <area onclick="loadXMLDoc(8)" coords="6,93,93,121" shape="rect">
+                        <area onclick="loadXMLDoc(6)" coords="64,184,153,211" shape="rect">
+                        <area onclick="loadXMLDoc(7)" coords="168,186,259,210" shape="rect">
+                        <area onclick="loadXMLDoc(11)" coords="214,98,302,124" shape="rect">
+                        <area onclick="loadXMLDoc(9)" coords="274,182,362,212" shape="rect">
+                        <area onclick="loadXMLDoc(10)" coords="377,185,467,208" shape="rect">
+                        <area onclick="loadXMLDoc(12)" coords="421,94,509,124" shape="rect">
+                    </map>
+                </div>
+                <!-- Pet map -->
+                <div class="Petitems">
+                    <img src="" id="Petitem" usemap="#Petitem">
+                    <map name="Petitem" id="Petitem">
+                        <!-- lay id cua product trong xml, id la thứ tự của product  -->
+                        <area onclick="loadXMLDoc(29)" coords="108,96,197,124" shape="rect">
+                        <area onclick="loadXMLDoc(30)" coords="210,97,303,122" shape="rect">
+                        <area onclick="loadXMLDoc(28)" coords="277,183,360,207" shape="rect">
+                        <area onclick="loadXMLDoc(27)" coords="378,182,465,211" shape="rect">
+                        <area onclick="loadXMLDoc(31)" coords="420,94,511,124" shape="rect">
+                    </map>
+
+                </div>  
+                </div>      
+            </div>
+            <!-- second half interface -->
+            <div class="col-6 border">
+                <!-- top right frame -->
+                <div class="row border">
+                    <div class="col" id="topright">
+                        <!-- <div id="loading">loading...</div> -->
+                        <h2>Information</h2>
+                        <!-- <form action="view.php" method="POST"> -->
+                            <table id="table" border="1">
+                                <thead>
+                                    <tr>
+                                        <th>Product ID</th>
+                                        <th>Product Name</th>
+                                        <th>Unit Price</th>
+                                        <th>Unit Quantity</th>
+                                        <th>In Stock</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="detail" name="detail">
+                                    
+                                </tbody>
+                          
+                                
+                            </table>
+
+                            <div id="quantityItem">
+
+                            </div>
+
+                            <div id="checkout_form"></div>
+                            <!-- lay product giong id voi top-right frame -->
+                            <!-- <input onclick="callPHPCart(loadXMLDoc(this))"  id="myButton1" type="button" value="Add" name="submit" > -->
+                            
+                        <!-- </form> -->
+                    </div>
+                </div>
+                <!-- bottom right frame -->
+                <div class="row border">
+                    <div class="col" id="botright">
+                        <h2>Shopping Cart</h2>
+                        <table id="table1" border="1">
+                            <thead>
+                                <tr>
+                                    <th>Product ID</th>
+                                    <th>Product Name</th>
+                                    <th>Unit Price</th>
+                                    <th>Unit Quantity</th>
+                                    <th>In Stock</th>
+                                </tr>
+                            </thead>
+                            <tbody id="addCart">
+                                
+                            </tbody>
+                            <tfoot id="countTotal">
+
+                            </tfoot>
+                            
+                        </table>
+                        <!-- <input onclick="clear()" type="button" value="Clear"> -->
+                        <button id="myClear" onclick="myClear()">Clear</button>
+                        <!-- <button id="myCheckout" onclick="check_out()">Check Out</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+</body>
+<script>
+
+</script>
+
+</html>

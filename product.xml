@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+<product>
+    <product_id>1000</product_id>
+    <product_name>Fish Fingers</product_name>
+    <unit_price>2.55</unit_price>
+    <unit_quantity>500gram</unit_quantity>
+    <in_stock>1500</in_stock>
+</product>
+<product>
+    <product_id>1001</product_id>
+    <product_name>Fish Fingers</product_name>
+    <unit_price>5.00</unit_price>
+    <unit_quantity>1000gram</unit_quantity>
+    <in_stock>750</in_stock>
+</product>
+<product>
+    <product_id>1002</product_id>
+    <product_name>Hamburger Patties</product_name>
+    <unit_price>2.35</unit_price>
+    <unit_quantity>pack 10</unit_quantity>
+    <in_stock>1200</in_stock>
+</product>
+<product>
+    <product_id>1003</product_id>
+    <product_name>Shelled Prawns</product_name>
+    <unit_price>6.90</unit_price>
+    <unit_quantity>250gram</unit_quantity>
+    <in_stock>300</in_stock>
+</product>
+<product>
+    <product_id>1004</product_id>
+    <product_name>Tub Ice Cream</product_name>
+    <unit_price>1.80</unit_price>
+    <unit_quantity>1 litre</unit_quantity>
+    <in_stock>800</in_stock>
+</product>
+<product>
+    <product_id>1005</product_id>
+    <product_name>Tub Ice Cream</product_name>
+    <unit_price>3.40</unit_price>
+    <unit_quantity>2 litre</unit_quantity>
+    <in_stock>1200</in_stock>
+</product>
+<product>
+    <product_id>2000</product_id>
+    <product_name>Panadol</product_name>
+    <unit_price>3.00</unit_price>
+    <unit_quantity>pack 24</unit_quantity>
+    <in_stock>2000</in_stock>
+</product>
+<product>
+    <product_id>2001</product_id>
+    <product_name>Panadol</product_name>
+    <unit_price>5.50</unit_price>
+    <unit_quantity>Bottle 50</unit_quantity>
+    <in_stock>1000</in_stock>
+</product>
+<product>
+    <product_id>2002</product_id>
+    <product_name>Bath Soap</product_name>
+    <unit_price>2.60</unit_price>
+    <unit_quantity>Pack 6</unit_quantity>
+    <in_stock>500</in_stock>
+</product>
+<product>
+    <product_id>2003</product_id>
+    <product_name>Garbage Bags Small</product_name>
+    <unit_price>1.50</unit_price>
+    <unit_quantity>Pack 10</unit_quantity>
+    <in_stock>500</in_stock>
+</product>
+<product>
+    <product_id>2004</product_id>
+    <product_name>Garbage Bags Large</product_name>
+    <unit_price>5.00</unit_price>
+    <unit_quantity>Pack 50</unit_quantity>
+    <in_stock>300</in_stock>
+</product>
+<product>
+    <product_id>2005</product_id>
+    <product_name>Washing Powder</product_name>
+    <unit_price>4.00</unit_price>
+    <unit_quantity>1000gram</unit_quantity>
+    <in_stock>800</in_stock>
+</product>
+<product>
+    <product_id>2006</product_id>
+    <product_name>Laundry Bleach</product_name>
+    <unit_price>3.55</unit_price>
+    <unit_quantity>2 litre Bottle   </unit_quantity>
+    <in_stock>250</in_stock>
+</product>
+<product>
+    <product_id>3000</product_id>
+    <product_name>Cheddar Cheese</product_name>
+    <unit_price>8.00</unit_price>
+    <unit_quantity>500 gram</unit_quantity>
+    <in_stock>1000</in_stock>
+</product>
+<product>
+    <product_id>3001</product_id>
+    <product_name>Cheddar Cheese</product_name>
+    <unit_price>15.00</unit_price>
+    <unit_quantity>1000 gram</unit_quantity>
+    <in_stock>1000</in_stock>
+</product>
+<product>
+    <product_id>3002</product_id>
+    <product_name>T'Bone Steak</product_name>
+    <unit_price>7.00</unit_price>
+    <unit_quantity>1000 gram</unit_quantity>
+    <in_stock>200</in_stock>
+</product>
+<product>
+    <product_id>3003</product_id>
+    <product_name>Navel Oranges</product_name>
+    <unit_price>3.99</unit_price>
+    <unit_quantity>Bag 20</unit_quantity>
+    <in_stock>200</in_stock>
+</product>
+<product>
+    <product_id>3004</product_id>
+    <product_name>Bananas</product_name>
+    <unit_price>1.49</unit_price>
+    <unit_quantity>Kilo</unit_quantity>
+    <in_stock>400</in_stock>
+</product>
+<product>
+    <product_id>3005</product_id>
+    <product_name>Peaches</product_name>
+    <unit_price>2.99</unit_price>
+    <unit_quantity>Kilo</unit_quantity>
+    <in_stock>500</in_stock>
+</product>
+<product>
+    <product_id>3006</product_id>
+    <product_name>Grapes</product_name>
+    <unit_price>3.50</unit_price>
+    <unit_quantity>Kilo</unit_quantity>
+    <in_stock>200</in_stock>
+</product>
+<product>
+    <product_id>3007</product_id>
+    <product_name>Apples</product_name>
+    <unit_price>1.99</unit_price>
+    <unit_quantity>Kilo</unit_quantity>
+    <in_stock>500</in_stock>
+</product>
+<product>
+    <product_id>4000</product_id>
+    <product_name>Earl Grey Tea Bags</product_name>
+    <unit_price>2.49</unit_price>
+    <unit_quantity>Pack 25</unit_quantity>
+    <in_stock>1200</in_stock>
+</product>
+<product>
+    <product_id>4001</product_id>
+    <product_name>Earl Grey Tea Bags</product_name>
+    <unit_price>7.25</unit_price>
+    <unit_quantity>Pack 100</unit_quantity>
+    <in_stock>1200</in_stock>
+</product>
+<product>
+    <product_id>4002</product_id>
+    <product_name>Earl Grey Tea Bags</product_name>
+    <unit_price>13.00</unit_price>
+    <unit_quantity>Pack 200</unit_quantity>
+    <in_stock>800</in_stock>
+</product>
+<product>
+    <product_id>4003</product_id>
+    <product_name>Instant Coffee</product_name>
+    <unit_price>2.89</unit_price>
+    <unit_quantity>200gram</unit_quantity>
+    <in_stock>500</in_stock>
+</product>
+<product>
+    <product_id>4004</product_id>
+    <product_name>Instant Coffee</product_name>
+    <unit_price>5.10</unit_price>
+    <unit_quantity>500gram</unit_quantity>
+    <in_stock>500</in_stock>
+</product>
+<product>
+    <product_id>4005</product_id>
+    <product_name>Chocolate Bar</product_name>
+    <unit_price>2.50</unit_price>
+    <unit_quantity>500gram</unit_quantity>
+    <in_stock>300</in_stock>
+</product>
+<product>
+    <product_id>5000</product_id>
+    <product_name>Dry Dog Food</product_name>
+    <unit_price>5.95</unit_price>
+    <unit_quantity>5 kg Pack</unit_quantity>
+    <in_stock>400</in_stock>
+</product>
+<product>
+    <product_id>5001</product_id>
+    <product_name>Dry Dog Food</product_name>
+    <unit_price>1.95</unit_price>
+    <unit_quantity>1 kg Pack</unit_quantity>
+    <in_stock>200</in_stock>
+</product>
+<product>
+    <product_id>5002</product_id>
+    <product_name>Bird Food</product_name>
+    <unit_price>3.99</unit_price>
+    <unit_quantity>500g packet</unit_quantity>
+    <in_stock>200</in_stock>
+</product>
+<product>
+    <product_id>5003</product_id>
+    <product_name>Cat Food</product_name>
+    <unit_price>2.00</unit_price>
+    <unit_quantity>500g</unit_quantity>
+    <in_stock>200</in_stock>
+</product>
+<product>
+    <product_id>5004</product_id>
+    <product_name>Fish Food</product_name>
+    <unit_price>3.00</unit_price>
+    <unit_quantity>500g</unit_quantity>
+    <in_stock>200</in_stock>
+</product>
+</products>
+<!-- sai rồi
+ không cần cái tag
+ này
+  -->
+<!-- </xml> -->
+
