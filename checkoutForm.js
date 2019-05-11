@@ -18,13 +18,13 @@ const purchaseForm = `
     </div>
     <div class="form-group">
         <label for="Checkout_email">Email</label>
-        <input type="email" class="form-control" id="Checkout_email" required placeholder="Email">
+        <input id="Emailaddress" type="email" class="form-control" id="Checkout_email" required placeholder="Email">
     </div>
     <div class="form-group">
         <label for="Checkout_country">Country</label>
         <input type="text" class="form-control" id="Checkout_country" required placeholder="Country">
     </div>
-    <button type="submit" >Submit</button>
+    <button onclick="send_email()" type="submit" >Purchase</button>
     <button onclick="check_out_cancle()" >Cancel Checkout</button>
 </form>
 `;

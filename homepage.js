@@ -49,11 +49,11 @@ function loadXMLDoc(id, callback) {
   xmlhttp.onreadystatechange = function () {
 
     if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-      // console.log(xmlhttp.responseXML);
-      // //document.getElementById("detail").innerHTML = this.responseText;
+      
 
-      const data = myFuntion(xmlhttp, id);
+      const data = getXMLDoc(xmlhttp, id);
       document.getElementById("detail").innerHTML = data;
+      
       //get the maximum stock from data
       const maxStock = JSON.parse(localStorage.getItem('data')).temp_stock
 
@@ -78,7 +78,7 @@ function loadXMLDoc(id, callback) {
 
 
 
-function myFuntion(xml, id) {
+function getXMLDoc(xml, id) {
   //store id for reuse it accross the js function
   localStorage.setItem("id", id)
   var xmlDoc = xml.responseXML;

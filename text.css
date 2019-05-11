@@ -3,13 +3,19 @@
 } */
 #topright{
     height: 300px;
-    display:inline-table;
+    /* display:inline-table; */
+    overflow-y: scroll;
     
 }
 #botright{
     height:300px;
-    display:inline-table;
+    /* display:inline-table; */
+    overflow-y: scroll;
 }
+.anyClass {
+    height:150px;
+    overflow-y: scroll;
+  }
 .img{
     display:inline-block;
 }
